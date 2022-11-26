@@ -5,8 +5,8 @@
 1, -7, 567, 89, 223-> 4*/
 
 
-string m = ReadInt("Введите числа через запятую: ") + ',';
-int[] numArray = GetArray(m, ',');
+string m = ReadInt("Введите числа через запятую: ");
+int[] numArray = GetArray(m + ',', ',');
 int evenNum = 0;
 
 string ReadInt(string msg)
